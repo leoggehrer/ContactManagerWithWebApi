@@ -42,7 +42,7 @@
 
 ## Anpassen der `AppSettings`
 
-Passen Sie die `AppSettings` in der Datei `appsettings.json` an. Fügen Sie die Zeilen für die zu verwendeten Datenbank hinzu.
+Passen Sie die `AppSettings` in der Datei `appsettings.json` an. FÃ¼gen Sie die Zeilen fÃ¼r die zu verwendeten Datenbank hinzu.
 
 ```json
 {
@@ -59,7 +59,7 @@ Passen Sie die `AppSettings` in der Datei `appsettings.json` an. Fügen Sie die Z
 }
 ```
 
-Passen Sie die `AppSettings` in der Datei `appsettings.Development.json` an. Fügen Sie die Zeilen für die Verbindungszeichenfolgen hinzu.
+Passen Sie die `AppSettings` in der Datei `appsettings.Development.json` an. FÃ¼gen Sie die Zeilen fÃ¼r die Verbindungszeichenfolgen hinzu.
 
 ```json
 {
@@ -78,11 +78,11 @@ Passen Sie die `AppSettings` in der Datei `appsettings.Development.json` an. Füg
 
 ## Models
 
-Erstellen Sie den Ordner `Models` und fügen Sie die Datei `UserData.cs` hinzu.
+Erstellen Sie den Ordner `Models` und fÃ¼gen Sie die Datei `UserData.cs` hinzu.
 
 ### Model `UserData`
 
-Dieser Typ wird verwendet, um Benutzerdaten zu übertragen. Bei der Initialisierung der Datenbank wird ein Benutzer mit den Daten `Admin` und `passme1234!` erstellt.
+Dieser Typ wird verwendet, um Benutzerdaten zu Ã¼bertragen. Bei der Initialisierung der Datenbank wird ein Benutzer mit den Daten `Admin` und `passme1234!` erstellt.
 
 ```csharp
 namespace ContactManager.WebApi.Models
@@ -203,7 +203,7 @@ namespace ContactManager.WebApi.Controllers
 }
 ```
 
-### Controller `ContractsController`
+### Controller `ContactsController`
 
 ```csharp
 namespace ContactManager.WebApi.Controllers
@@ -447,4 +447,4 @@ namespace ContactManager.WebApi.Controllers
 }
 ```
 
-**Viel Spaß!**
+**Viel SpaÃŸ!**
